@@ -1,0 +1,13 @@
+<ion-card>
+    
+    <ion-card-header>
+      <ion-card-title>
+        Title
+      </ion-card-title>
+      <ion-card-subtitle>
+        Subtitle
+      </ion-card-subtitle>
+    </ion-card-header>
+    <img src='https://avatars0.githubusercontent.com/u/35799284?s=460&v=4'>
+      <ion-card-content>I am a card</ion-card-content>
+  </ion-card>

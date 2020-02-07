@@ -1,0 +1,11 @@
+showLoading() {
+    this.loadingctrl.create({
+      message: 'Loading...'
+    }).then((loading) => {
+      loading.present();
+
+      setTimeout(() => {
+        loading.dismiss();
+      }, 5000)
+    })
+  }

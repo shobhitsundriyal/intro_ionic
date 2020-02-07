@@ -1,0 +1,12 @@
+<ion-input type='text' placeholder='Enter Your Name'></ion-input>
+  <ion-button>
+    <ion-icon slot='start' name='home'></ion-icon>
+    Done</ion-button>
+  <ion-button expand='full'>Done</ion-button>
+  <ion-button shape='round'>Done</ion-button>
+  <ion-button fill='clear'>Done</ion-button>
+  <ion-button fill='outline'>Done</ion-button>
+
+  <ion-button color='secondary' shape='round'>
+    <ion-icon name='checkmark' slot='icon-only'></ion-icon>
+  </ion-button>

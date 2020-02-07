@@ -1,14 +1,38 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color='primary'>
     <ion-title>
-      Ionic Blank
+      Ionic is Great
     </ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar>
+    </ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content padding>
+  <ion-button expand='block' (click)='showLoading()' shape='round'>
+    Click me for loading
+  </ion-button>
+  <ion-button expand='block' (click)='showToast()' shape='round'>
+    Click me for Toast
+  </ion-button>
+  <ion-button expand='block' (click)='showAlert()' shape='round'>
+    Click me for Alert
+  </ion-button>
+  <ion-button expand='block' href='/office/1234' shape='round'>
+    Take to office href
+  </ion-button>
+  <ion-button expand='block' (click)='gotooffice()' shape='round'>
+    office by nav controller
+  </ion-button>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color='danger'>
+    <ion-title>
+      Buy Now
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

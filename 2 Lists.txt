@@ -1,0 +1,52 @@
+  <ion-item>
+    <ion-avatar slot='start'>
+      <img scr="https://api.adorable.io/avatars/500">
+    </ion-avatar>
+    <ion-label>
+      <h2>Shobhit Sundriyal</h2>
+      <h4>Developer</h4>
+      <p>Developer of the app WoW</p>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot='start'>
+      <img scr="https://api.adorable.io/avatars/500">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Shobhit Sundriyal</h2>
+      <h4>Developer</h4>
+      <p>Developer of the app WoW</p>
+    </ion-label>
+  </ion-item>
+  <ion-item>List item</ion-item>
+  <ion-item-sliding>
+    <ion-item>Slidable</ion-item>
+    <ion-item-options side='start' >
+      <ion-item-option color='secondary'>
+        Archive
+      </ion-item-option>
+    </ion-item-options>
+    <ion-item-options side='end'>
+      <ion-item-option  color='danger'>
+        Delete
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>Slidable only icon</ion-item>
+    <ion-item-options side='start' >
+      <ion-item-option color='secondary'>
+        <ion-icon name='archive' slot='icon-only'></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+    <ion-item-options side='end'>
+      <ion-item-option  color='danger'>
+        <ion-icon name='trash' slot='icon-only'></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item>List item</ion-item>
+  <ion-item>List item</ion-item>
+  <ion-item>List item</ion-item>
